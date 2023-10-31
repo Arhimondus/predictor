@@ -1,0 +1,24 @@
+{
+  "name": "predictor",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun _tests.ts",
+    "generate": "bun generate.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "bin": {
+    "predictor": "./predictor.js"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.10",
+    "glob": "^10.3.10",
+    "nanoid": "^5.0.2",
+    "surrealdb.node": "^0.3.0"
+  }
+}
